@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route("/")
 def helloWorld():
-    test = [{"first": "one", "second": "two"}]
+    test = [{"first": "this is from the backend", "second": "two"}]
     return test
 
 if __name__ == '__main__':
